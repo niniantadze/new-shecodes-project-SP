@@ -1,0 +1,124 @@
+body {
+  font-family: "Romelu Vomelu";
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  color: #3c0303;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: #8a0f0f;
+}
+.container {
+  max-width: 690px;
+  background: #efbfc6;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+img {
+  img {
+    max-width: 100%;
+  }
+}
+.pic1 {
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 80%;
+  padding: 10px;
+  transition: all 200ms ease-in-out;
+  display: block;
+}
+.pic1:hover {
+  filter: contrast(75%);
+  transform: scale(1.2);
+}
+.sylviabutton {
+  display: block;
+  color: #3c0303;
+  font-size: 16px;
+  padding: 10px, 15px;
+  transition: all 200ms ease-in-out;
+  text-decoration-line: none;
+}
+.sylviabutton:hover {
+  text-decoration-line: underline;
+  font-size: larger;
+  font-weight: bolder;
+}
+.changeTheme {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  background: #39383d;
+  color: #efbfc6;
+  border-radius: 4px;
+  padding: 5 8px;
+  border: 1px, solid, #efbfc6;
+  transition: all 200ms ease-in-out;
+}
+
+.changeTheme:hover {
+  background: #efbfc6;
+  color: #39383d;
+  border: none;
+  font-size: larger;
+}
+
+footer {
+  text-align: center;
+  margin: 30px 0;
+  color: #3c0303;
+  font-size: 18px;
+}
+.nini {
+  text-decoration-line: none;
+  color: #3c0303;
+  font-family: cursive;
+  font-weight: 900;
+  transition: all, 150ms, ease-in-out;
+}
+.nini:hover {
+  text-decoration-line: underline;
+  font-size: larger;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(2);
+}
+
+.dark {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark a {
+  color: #3c0303;
+}
